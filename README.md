@@ -10,7 +10,7 @@
 
 [4.testing contract](#4.-testing-contract)
 
-[5.environment variables](#5.-environment variables)
+[5.environment variables](#5.-environment-variables)
 
 [6.deploying contract](#6.-deploying-contract)
 
