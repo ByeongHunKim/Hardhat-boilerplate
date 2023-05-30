@@ -3,9 +3,9 @@ import "@nomicfoundation/hardhat-toolbox";
 import { config as dotEnvConfig } from "dotenv";
 dotEnvConfig();
 
-const ALCHEMY_MUMBAI_API_KEY = process.env.ALCHEMY_MUMBAI_API_KEY ? process.env.ALCHEMY_MUMBAI_API_KEY : '';
-const ALCHEMY_SEPOLIA_API_KEY = process.env.ALCHEMY_SEPOLIA_API_KEY ? process.env.ALCHEMY_SEPOLIA_API_KEY : '';
-const PRIVATE_KEY = process.env.PRIVATE_KEY ? process.env.PRIVATE_KEY : '';
+const ALCHEMY_MUMBAI_API_KEY = process.env.ALCHEMY_MUMBAI_API_KEY || "" ;
+const ALCHEMY_SEPOLIA_API_KEY = process.env.ALCHEMY_SEPOLIA_API_KEY || "";
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 
 const config: HardhatUserConfig = {
   solidity: "0.8.18",
